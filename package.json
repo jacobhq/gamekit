@@ -1,0 +1,25 @@
+{
+  "name": "gamekit",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+<<<<<<< HEAD
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "ui:add": "pnpm --filter @repo/ui ui:add"
+=======
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+>>>>>>> e8e6372 (feat(create-turbo): apply official-starter transform)
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "prettier": "^3.2.5",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@8.9.0",
+  "engines": {
+    "node": ">=18"
+  }
+}
